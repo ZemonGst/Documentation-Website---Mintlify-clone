@@ -851,7 +851,7 @@ nav>* {
     text-decoration: underline;
 }
 
-/* ===== Footer ===== */
+/* footer section */
 .site-footer {
     background: #fafafa;
     border-top: 1px solid #e5e7eb;
@@ -864,7 +864,6 @@ nav>* {
     padding: 64px 24px;
 }
 
-/* Top row */
 .footer-top {
     display: flex;
     justify-content: space-between;
@@ -886,7 +885,7 @@ nav>* {
     opacity: 0.7;
 }
 
-/* Links */
+
 .footer-links {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -913,7 +912,6 @@ nav>* {
     text-decoration: underline;
 }
 
-/* Security badge */
 .footer-security {
     display: flex;
     align-items: center;
@@ -928,7 +926,6 @@ nav>* {
     height: 40px;
 }
 
-/* ===== Bottom bar ===== */
 .footer-bottom {
     border-top: 1px solid #e5e7eb;
     background: #f9fafb;
@@ -944,7 +941,6 @@ nav>* {
     justify-content: space-between;
 }
 
-/* System status */
 .system-status {
     display: flex;
     align-items: center;
@@ -960,13 +956,11 @@ nav>* {
     border-radius: 50%;
 }
 
-/* Copyright */
 .copyright {
     font-size: 14px;
     color: #6b7280;
 }
 
-/* Theme image */
 .theme-image img {
     height: 28px;
 }
